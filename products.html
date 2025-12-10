@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/48dd73c5ce.js" crossorigin="anonymous"></script>
+  <title>Products</title>
+  <style>
+   body {
+          background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    p {text-align: center;
+
+    }
+.head1 {
+    text-align: center;
+}
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+               animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+        @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+    .blue-tshirt {
+        height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+   .green-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .yellow-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .red-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .black-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .purple-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .cyan-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .pink-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .blue-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .lightblue-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .blue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .lightblue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .darkblue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .headphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .gameheadphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .shoes {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .shoes2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .black-shoes {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .heels {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .heels2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet2 {
+              height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet3 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet4 {
+             height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet5 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+.blanket1 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+
+.blanket2 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket3 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket4 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket5 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+   .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+  </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar"><ul>
+  <li><a href="page1.html" class="Back">Go Back</a></li>
+</ul>
+</nav>
+</header>
+<main>
+   <h1>OVER 35+ ITEMS!</h1>
+   <h1>T-Shirt Section</h1>
+   <section>
+    <img class="blue-tshirt" src="https://static.vecteezy.com/system/resources/previews/035/575/267/non_2x/plain-blue-t-shirt-front-view-for-mockup-in-transparent-background-free-png.png" alt="blue-tshirt"> <a href="Bluets.html"><button class="button">View</button></a>
+    <img class="green-tshirt" src="https://www.pepstores.com/cdn/shop/files/EJA90_web_PNG.png?v=1735183809&width=1946" alt="green-tshirt"> <a href="Greents.html"><button class="button">View</button></a>
+    <img class="yellow-tshirt" src="https://www.pngarts.com/files/5/Plain-Yellow-T-Shirt-Transparent-Image.png" alt="yellow-tshirt"> <a href="Yellowts.html"><button class="button">View</button></a>
+    <img class="red-tshirt" src="https://www.pngarts.com/files/5/Plain-Red-T-Shirt-PNG-Pic.png" alt="red-tshirt"> <a href="Redts.html"><button class="button">View</button></a>
+    <img class="grey-tshirt" src="https://www.pngarts.com/files/5/Plain-Grey-T-Shirt-PNG-Transparent-Image.png" alt="grey-tshirt"> <a href="Greyts.html"><button class="button">View</button></a>
+    <img class="black-tshirt" src="https://www.pngarts.com/files/3/T-Shirt-PNG-Transparent-Image.png" alt="black-tshirt"> <a href="Blackts.html"><button class="button">View</button></a>
+    <img class="white-tshirt" src="c:\Users\jonun\Downloads\White-tshirt.png" alt="white-tshirt"> <a href="Whitets.html"><button class="button">View</button></a>
+    <img class="purple-tshirt" src="https://static.vecteezy.com/system/resources/previews/035/575/330/non_2x/plain-purple-t-shirt-mockup-free-png.png" alt="purple-tshirt"> <a href="Purplets.html"><button class="button">View</button></a>
+    <img class="cyan-tshirt" src="https://static.vecteezy.com/system/resources/previews/021/103/696/non_2x/transparent-cyan-t-shirt-free-png.png" alt="cyan-tshirt"> <a href="Cyants.html"><button class="button">View</button></a>
+    <img class="pink-tshirt" src="https://www.pngarts.com/files/5/Plain-Pink-T-Shirt-Transparent-Image.png" alt="pink-tshirt"> <a href="Pinkts.html"><button class="button">View</button></a>
+   </section>
+   <h1>Pants Section</h1>
+   <section>
+    <img class="blue-pants" src="http://clipart-library.com/images_k/pants-transparent-background/pants-transparent-background-4.png" alt="blue-pants"> <a href="Blueps.html"><button class="button">View</button></a>
+    <img class="pants" src="c:\Users\jonun\Downloads\pants.png" alt="black-pants"> <a href="blackps.html"><button class="button">View</button></a>
+    <img class="grey-pants" src="https://www.pngplay.com/wp-content/uploads/8/Trouser-Transparent-File.png" alt="grey-pants"> <a href="Greyps.html"><button class="button">View</button></a>
+    <img class="lightblue-pants" src="https://purepng.com/public/uploads/large/purepng.com-mens-jeansgarmentlower-bodydenimjeansnavy-blue-1421526362794kpmhb.png" alt="lightblue-pants"> <a href="lightblueps.html"><button class="button">View</button></a>
+    <img class="white-pants" src="https://storage.googleapis.com/eu.artifacts.grp-serv-digi-prod-pepafr-twp.appspot.com/pep-africa/uploads/products/bw230384.png" alt="white-pants"> <a href="Whiteps.html"><button class="button">View</button></a>
+    <img class="white-shorts" src="c:\Users\jonun\Downloads\shorts.png" alt="white-shorts"> <a href="whitess.html"><button class="button">View</button></a>
+    <img class="blue-shorts" src="https://www.pngplay.com/wp-content/uploads/15/Short-Pant-Blue-Transparent-PNG.png" alt="blue-shorts"> <a href="Bluess.html"><button class="button">View</button></a>
+    <img class="lightblue-shorts" src="https://static.vecteezy.com/system/resources/previews/021/597/082/non_2x/denim-shorts-isolated-on-a-transparent-background-png.png" alt="lightblue-shorts"> <a href="lightbluess.html"><button class="button">View</button></a>
+    <img class="darkblue-shorts" src="https://www.freepnglogos.com/uploads/shorts-png/pants-swimming-short-png-9.png" alt="darkblue-shorts"> <a href="darkbluess.html"><button class="button">View</button></a>
+    <img class="grey-shorts" src="https://www.pngplay.com/wp-content/uploads/15/Short-Pant-Grey-PNG-HD-Quality.png" alt="GreyShorts"> <a href="greyss.html"><button class="button">View</button></a>
+    </section>
+    <h1>Headphones Section</h1>
+    <section>
+    <img class="headphones" src="http://pluspng.com/img-png/headphones-hd-png-headphones-png-image-1005.png" alt="BlackHeadphones"> <a href="headphones.html"><button class="button">View</button></a>
+    <img class="gameheadphones" src="https://www.pngall.com/wp-content/uploads/5/Cool-Gaming-Headset-PNG-Pic.png" alt="GamingHeadphones"> <a href="gameheadphones.html"><button class="button">View</button></a>
+    <img class="earbuds" src="https://www.att.com/catalog/en/idse/Beats/Beats%20Studio%20Buds%20+%20-%20True%20Wireless%20Noise%20Cancelling%20Earbuds/Transparent-hero-zoom.png" alt="wireless-headphones"> <a href="earbuds.html"><button class="button">View</button></a>
+    <img class="earbuds2" src="https://www.pngarts.com/files/8/Earbuds-Wireless-Transparent-Image.png" alt="WirelessHeadphones"> <a href="blackearbuds.html"><button class="button">View</button></a>
+    <img class="earphones" src="https://png.pngtree.com/png-vector/20240613/ourmid/pngtree-a-pair-of-white-headphones-with-wire-on-transparent-background-png-image_12597199.png" alt="earphones"> <a href="earphones.html"><button class="button">View</button></a>
+    </section>
+    <h1>Shoes Section</h1>
+    <section>
+    <img class="shoes" src="c:\Users\jonun\Downloads\shoes.png" alt="BlueShoes"> <a href="shoes.html"><button class="button">View</button></a>
+    <img class="shoes2" src="c:\Users\jonun\Downloads\shoes2.png" alt="RedShoes"> <a href="shoes2.html"><button class="button">View</button></a>
+    <img class="black-shoes" src="c:\Users\jonun\Downloads\black-shoes.png" alt="BlackShoes"> <a href="blackshs.html"><button class="button">View</button></a>
+    <img class="heels" src="c:\Users\jonun\Downloads\heels.png" alt="RedHeels"> <a href="heels.html"><button class="button">View</button></a>
+    <img class="heels2" src="c:\Users\jonun\Downloads\heels2.png" alt="BlackHeels"> <a href="heels2.html"><button class="button">View</button></a>
+    </section>
+    <h1>Bracelet Section</h1>
+    <section>
+    <img class="bracelet" src="c:\Users\jonun\Downloads\bracelet.PNG" alt="SilverBracelet"> <a href="goldbl.html"><button class="button">View</button></a>
+    <img class="bracelet2" src="c:\Users\jonun\Downloads\bracelet2.png" alt="GoldBracelet1"> <a href="goldbl2.html"><button class="button">View</button></a>
+    <img class="bracelet3" src="c:\Users\jonun\Downloads\bracelet3.png" alt="GoldBracelet2"> <a href="goldbl3.html"><button class="button">View</button></a>
+    <img class="bracelet4" src="c:\Users\jonun\Downloads\bracelet4.png" alt="SmallGoldBracelet"> <a href="sgoldbl.html"><button class="button">View</button></a>
+    <img class="bracelet5" src="c:\Users\jonun\Downloads\bracelet5.png" alt="ColorfulBracelet"> <a href="colorbl.html"><button class="button">View</button></a>
+    </section>
+    <h1>Blanket Section</h1>
+    <section>
+    <img class="blanket1" src="c:\Users\jonun\Downloads\blanket.png" alt="ColorfulBlanket"> <a href="colorblanket.html"><button class="button">View</button></a>
+    <img class="blanket2" src="c:\Users\jonun\Downloads\blanket2.png" alt="BrownBlanket"> <a href="brownbl.html"><button class="button">View</button></a>
+    <img class="blanket3" src="c:\Users\jonun\Downloads\blanket3.png" alt="WhiteBlanket"> <a href="whitebl.html"><button class="button">View</button></a>
+    <img class="blanket4" src="c:\Users\jonun\Downloads\blanket4.png" alt="BlackBlanket"> <a href="blackbl.html"><button class="button">View</button></a>
+    <img class="blanket5" src="c:\Users\jonun\Downloads\blanket5.png" alt="BlackandWhiteBlanket"> <a href="blacknwhitebl.html"><button class="button">View</button></a>
+</section>
+
+
+</main>
+</main>
+</body>
+</html>
