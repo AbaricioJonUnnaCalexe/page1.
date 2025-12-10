@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/48dd73c5ce.js" crossorigin="anonymous"></script>
+  <title>Headphones-Section</title>
+  <style>
+   body {
+          background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    p {text-align: center;
+
+    }
+.head1 {
+    text-align: center;
+}
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+                  @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+              .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+       .headphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .gameheadphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+  </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar"><ul>
+  <li><a href="page1.html" class="Back">Go Back</a></li>
+</ul>
+</nav>
+</header>
+<main>
+      <h1>Headphones Section</h1>
+    <section>
+    <img class="headphones" src="http://pluspng.com/img-png/headphones-hd-png-headphones-png-image-1005.png" alt="BlackHeadphones"> <a href="headphones.html"><button class="button">View</button></a>
+    <img class="gameheadphones" src="https://www.pngall.com/wp-content/uploads/5/Cool-Gaming-Headset-PNG-Pic.png" alt="GamingHeadphones"> <a href="gameheadphones.html"><button class="button">View</button></a>
+    <img class="earbuds" src="https://www.att.com/catalog/en/idse/Beats/Beats%20Studio%20Buds%20+%20-%20True%20Wireless%20Noise%20Cancelling%20Earbuds/Transparent-hero-zoom.png" alt="wireless-headphones"> <a href="earbuds.html"><button class="button">View</button></a>
+    <img class="earbuds2" src="https://www.pngarts.com/files/8/Earbuds-Wireless-Transparent-Image.png" alt="WirelessHeadphones"> <a href="earbuds2.html"><button class="button">View</button></a>
+    <img class="earphones" src="https://png.pngtree.com/png-vector/20240613/ourmid/pngtree-a-pair-of-white-headphones-with-wire-on-transparent-background-png-image_12597199.png" alt="earphones"> <a href="earphones.html"><button class="button">View</button></a>
+  </section>
+</main>
+</body>
+</html>
