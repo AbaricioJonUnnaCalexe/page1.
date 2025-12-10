@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
   <script src="https://kit.fontawesome.com/48dd73c5ce.js" crossorigin="anonymous"></script>
   <title>UnnaShop</title>
   <style> 
@@ -62,7 +61,7 @@
       background-color: aqua;
       display: inline;
       margin: 675px;
-      padding: 5em, 8%;
+      padding: 0%;
       border-radius: 15px;
       max-width: fit-content;
     }
@@ -107,7 +106,7 @@
   left: 75px;
   border-radius: 20px;
 }
-.red-tshirt {
+.pants {
     height: 200px;
   width: 200px;
   background-color: whitesmoke;
@@ -116,7 +115,7 @@
   left: 95px;
   border-radius: 20px;
 }
-.yellow-tshirt {
+.shoes {
       height: 200px;
   width: 200px;
   background-color: whitesmoke;
@@ -125,7 +124,7 @@
   left: 117px;
   border-radius: 20px;
 }
-.pants {
+.bracelet {
         height: 200px;
   width: 200px;
   background-color: whitesmoke;
@@ -134,7 +133,7 @@
   left: 136px;
   border-radius: 20px;
 }
-.shorts {
+.blanket {
           height: 200px;
   width: 200px;
   background-color: whitesmoke;
@@ -152,20 +151,7 @@
   left: 175px;
   border-radius: 20px;
 }
-.left {
-  position: relative;
-    top: -40px;
-  left: -1229px;
-  width: 60px;
-  height: 60px;
-}
-.right {
-  position: relative;
-    top: -35px;
-  left: 129px;
-  width: 69px;
-  height: 69px;
-}
+
 .Why-Choose {
   position: relative;
   top: 30px;
@@ -231,22 +217,22 @@ width: 190px;}
   width: 235px;
   left: 117px;
 }
-.red-tshirt {
-  margin: auto;
-  width: 235px;
-  left: 117px;
-}
-.yellow-tshirt {
-  margin: auto;
-  width: 235px;
-  left: 117px;
-}
 .pants {
   margin: auto;
   width: 235px;
   left: 117px;
 }
-.shorts {
+.shoes {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.bracelet {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.blanket {
   margin: auto;
   width: 235px;
   left: 117px;
@@ -256,20 +242,7 @@ width: 190px;}
   width: 235px;
   left: 117px;
 }
-.left {
-  margin: auto;
-  width: 235px;
-  left: -195px;
-  top: 111px;
-  width: 45px;
-}
-.right {
-  margin: auto;
-  width: 45px;
-  left: 87px;
-  top: 121px;
-  width: 235;
-}
+
 .Why-Choose {
   top: 99px;
 }
@@ -291,6 +264,24 @@ width: 190px;}
 }
 
 }
+@media (max-width: 1024px) {
+  .navbar {
+    backdrop-filter: none;
+  }
+
+  .navbar ul .navbar li .title{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.7rem !important;
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    top: 0;
+    right: 0;
+    padding: 5rem 1.5rem;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.5);
+  }
+}
 
   </style>
 </head>
@@ -299,8 +290,8 @@ width: 190px;}
 <div>
 <nav class="navbar"><ul>
   <li><a href="" class="Your Cart">Your Cart</a></li>
-  <li><a href="" class="Products">Products</a></li>
-  <li class="home"><a href="">Home</a></li>
+  <li><a href="Products.html" class="Products">Products</a></li>
+  <li><a href="Home.html" class="home">Home</a></li>
 </ul>
 </nav>
 </div>
@@ -320,19 +311,15 @@ width: 190px;}
   For More Info About This Shop and The Company Behind it all, Click The Home Section in This Page!
   What are you waiting for? Join now and Enjoy Shopping! </p>
 
- <!--The Home Page And Shopping Will Be Available in Page 2 Project Since They Need a Responsive Navbar,-->
+ <!--The Products And Your Cart Will Be Available in Page 2 Project Since They're in Page 2 and 3-->
 
   <h1 class="click">Click On What Product You Want!</h1>
-  <img src="https://www.pngkey.com/png/full/925-9250948_white-t-shirt-png.png" class="White-tshirt">
-  <img src="https://www.pngarts.com/files/5/Plain-Red-T-Shirt-PNG-Pic.png" class="red-tshirt">
-  <img src="https://www.pngarts.com/files/5/Plain-Yellow-T-Shirt-PNG-Download-Image.png" class="yellow-tshirt">
-  <img src="http://pluspng.com/img-png/png-hd-pants-mens-pant-png-hd-800.png" class="pants">
-  <img src="https://static.vecteezy.com/system/resources/previews/037/174/417/non_2x/ai-generated-3d-rendering-of-a-man-shorts-on-transparent-background-ai-generated-free-png.png" class="shorts">
-  <img src="http://pluspng.com/img-png/headphones-hd-png-headphones-png-image-1005.png" class="headphones">
-  <img src="http://pluspng.com/img-png/left-arrow-png-left-icon-1600.png" class="left">
- <img src="http://www.clipartbest.com/cliparts/aTq/6bg/aTq6bgpbc.png" class="right">
-
- <!--The Left And Right Buttons Are Temporary Placeholders Due to The Buttons Needing To Be Coded In Java to be interactive-->
+<a href="T-Shirt-Section.html"> <img src="https://www.pngkey.com/png/full/925-9250948_white-t-shirt-png.png" class="White-tshirt" alt="White-tshirt"> </a>
+<a href="Pants-Section.html"> <img src="http://pluspng.com/img-png/png-hd-pants-mens-pant-png-hd-800.png" class="pants" alt="Pants"> </a>
+<a href="Shoes-Section.html"> <img src="http://pluspng.com/img-png/shoes-png-nike-shoes-transparent-background-800.png" class="shoes" alt="Shoes">  </a>
+<a href="Bracelet-Section.html">  <img src="https://www.pngall.com/wp-content/uploads/7/Silver-Bracelet-PNG.png" class="bracelet" alt="Bracelet">  </a>
+<a href="Blanket-Section.html"> <img src="https://pngimg.com/uploads/blanket/blanket_PNG14.png" class="blanket" alt="Blanket"> </a>
+<a href="Headphones-Section.html">  <img src="http://pluspng.com/img-png/headphones-hd-png-headphones-png-image-1005.png" class="headphones" alt="Headphones"> </a>
 
   <h1 class="Why-Choose">Why Choose This Website?</h1>
   <p class="Reason">UnnaShop Always Listens to Its Customers Whenever They're Having Problems Or Needs a Refund, UnnaShop is Also Always Having Discounts and Sales Every Month!
