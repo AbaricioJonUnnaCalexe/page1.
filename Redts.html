@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red-Tshirt</title>
+  <style>
+    body {
+          background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    p {text-align: center;
+
+    }
+.head1 {
+    text-align: center;
+}
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .red-tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .red-tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+  </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar"><ul>
+  <li><a href="Products.html" class="Back">Go Back</a></li>
+  <li><a href="" class="Cart">Your Cart</a></li> <!--The Your Cart Button Doesn't Work temporarily Since I need a 3rd Page And Functionailty for it. -->
+</ul>
+</nav>
+</header>
+<main>
+    <section>
+    <img class="red-tshirt" src="https://www.pngarts.com/files/5/Plain-Red-T-Shirt-PNG-Pic.png" alt="red-tshirt">
+</section>
+<h2 class="Item-Name">Red-Tshirt</h2>
+<br>
+<br>
+<hr>
+<section>
+  <h2 class="Description">Description:</h2>
+  <p class="Paragraph">a T-Shirt That Fits All! These T-Shirts Are Sure To Make You Comfy And Warm Even During The Cold. <br>
+     And These T-Shirts Can Come With Any Diffrent Colors! (Like Blue, Green. Whute, Black, Pink Etc.) Everyone Needs a Comfy T-Shirt! <br>
+     Make Sure to Pick Your Favorite Color!</p>
+</section>
+<section>
+  <h1 class="Buy-Now">Buy Now</h1>
+  <h1 class="Add-Cart">Add To Cart</h1>
+  <!--The Buy And Add To Cart Buttons Doesn't Work temporarily Since I need a 3rd Page And Functionailty for the buttons. -->
+</section>
+</main>
+</body>
+</html>
