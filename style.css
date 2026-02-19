@@ -1,0 +1,6765 @@
+body {
+          background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    p {text-align: center;
+
+    }
+.head1 {
+    text-align: center;
+}
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+    body {
+      background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    main {
+      margin: 20px;
+      animation-name: fade;
+      animation-duration: 3s;
+    }
+    @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+    .title {
+      position: relative;
+      text-align: center;
+      background-color: aqua;
+      display: inline;
+      margin: 675px;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+    }
+.abouttxt {
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+.aboutustxt {
+  position: relative;
+  top: -35px;
+  text-align: center;
+}
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 28px;
+  background-color: rgb(168, 169, 166);
+  width: 700px;
+  position: relative;
+  left: 650px;
+  top: -119px;
+}
+.search-input {
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+}
+.click {
+  text-align: center;
+}
+.tshirt {
+  height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+}
+.pants {
+    height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 95px;
+  border-radius: 20px;
+}
+.shoes {
+      height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 117px;
+  border-radius: 20px;
+}
+.bracelet {
+        height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 136px;
+  border-radius: 20px;
+}
+.blanket {
+          height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+            animation-name: fade;
+      animation-duration: 3s;
+}
+.headphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 175px;
+  border-radius: 20px;
+}
+
+.Why-Choose {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+.Reason {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+.customer-service {
+  background-color: rgb(168, 169, 166);
+  width: 1521px;
+  height: 110px;
+    position: relative;
+    top: 300px;
+          animation-name: fade;
+      animation-duration: 3s;
+}
+.contact-us {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 167px;
+        animation-name: fade;
+      animation-duration: 3s;
+}
+.gmail {
+  position: relative;
+  top: 188px;
+  left: 489px;
+        animation-name: fade;
+      animation-duration: 3s;
+}
+.tel {
+    position: relative;
+  top: 145px;
+  left: 489px;
+        animation-name: fade;
+      animation-duration: 3s;
+}
+.tel2 {
+      position: relative;
+  top: 145px;
+  left: 689px;
+        animation-name: fade;
+      animation-duration: 3s;
+}
+
+
+
+@media (max-width:1024px) {
+
+.title {
+ margin: auto;
+ max-width: 100%;
+ left: 160px;
+}
+.search {
+  margin: auto;
+  left: 85px;
+width: 190px;}
+.White-tshirt {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.pants {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.shoes {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.bracelet {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.blanket1 {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+.headphones {
+  margin: auto;
+  width: 235px;
+  left: 117px;
+}
+
+.Why-Choose {
+  top: 99px;
+}
+.Reason {
+  top: 100px;
+}
+.gmail {
+  left: 25px;
+}
+.tel2 {
+  left: -55px;
+  top: 137px;
+}
+.tel {
+  left: 350px;
+}
+.customer-service {
+  width: 485px;
+}
+
+}
+@media (max-width: 1024px) {
+  .navbar {
+    backdrop-filter: none;
+  }
+
+  .navbar ul .navbar li .title{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.7rem !important;
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    top: 0;
+    right: 0;
+    padding: 5rem 1.5rem;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.5);
+  }
+}
+
+  body {
+          background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    p {text-align: center;
+
+    }
+.head1 {
+    text-align: center;
+}
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+               animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+        @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+    .blue-tshirt {
+        height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+   .green-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .yellow-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .red-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .black-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .whitetshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .purple-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .cyan-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .pink-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .blue-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .lightblue-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .blue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .lightblue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .darkblue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .headphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .gameheadphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .shoes {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .shoes2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .black-shoes {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .heels {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .heels2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet2 {
+              height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet3 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet4 {
+             height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet5 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+.blanket1 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+
+.blanket2 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket3 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket4 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket5 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+   .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+    body {
+          background-color: rgb(255, 248, 109);
+      margin: 0px;
+    }
+    p {text-align: center;
+
+    }
+.head1 {
+    text-align: center;
+}
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+       .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+        .blue-tshirt {
+        height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+   .green-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .yellow-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .red-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+         animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .black-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white_tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .purple-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .cyan-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .pink-tshirt {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+              @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+          .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+      .blue-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+     .black-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .lightblue-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-pants {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .white-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .blue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .lightblue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .darkblue-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .grey-shorts {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+                  @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+              .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+       .shoes1 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .shoes2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .black-shoes {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .heels {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .heels2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+                  @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+              .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+       .bracelet1 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet2 {
+              height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet3 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet4 {
+             height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .bracelet5 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+                  @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+       .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+    .blanket1 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+
+.blanket2 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket3 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket4 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+.blanket5 {
+               height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+}
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+                  @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+              .button {
+    position: relative;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 350px;
+    top: -100px;
+               animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   h1 {
+      text-align: center;
+                    animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+       .headphones1 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .gameheadphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earbuds2 {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+   .earphones {
+            height: 200px;
+  width: 200px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  left: 75px;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+   }
+
+
+
+ .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .white-tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .white-tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+ .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .blue_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .blue_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .green_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .green-tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+ .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .yellow_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .yellow_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+ .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .red_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .red_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .grey_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .grey_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+.navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .black_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .black_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .purple_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .purple_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .cyan_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .cyan_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .pink_tshirt {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .pink_tshirt {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+  .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .black_pants {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .black_pants {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+.navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .blue_pants {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .blue_pants {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .grey_pants {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .grey_pants {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+   .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .lightblue_pants {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .lightblue_pants {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+  .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .white_pants {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .white_pants {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+   .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .white_shorts {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .white_shorts {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .darkblue_shorts {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .darkblue_shorts {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+   .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .lightblue_shorts {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .lightblue_shorts {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .blue_shorts {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .blue_shorts {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .grey_shorts {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .grey_shorts {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+        .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .blue_shoes {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .blue_shoes {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .red_shoes {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .red_shoes {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+   .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .black_shoes {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .black_shoes {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .red_heels {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .red_heels {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .black_heels {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .black_heels {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .sliver_bracelet {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .sliver_bracelet {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .gold_bracelet {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .gold_bracelet {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .gold_bracelet2 {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .gold_bracelet2 {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+         .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .colorful_bracelet {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .colorful_bracelet {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .colorful_blanket {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .colorful_blanket {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+         .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .brown_blanket {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .brown_blanket {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .white_blanket {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .white_blanket {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .black_blanket {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .black_blanket {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .blacknwhite_blanket {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .blacknwhite_blanket {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .black_headphones {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .black_headphones {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .blue_headphones {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .blue_headphones {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+      .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .grey_earbuds {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .grey_earbuds {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
+
+
+
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      list-style-type: none;
+      background-color: rgb(0, 0, 0);
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+    }
+    .navbar a {
+      background-color: rgb(168, 169, 166);
+      border-radius: 50px;
+      color: rgb(255, 222, 36);
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px;
+      display: block;
+      text-align: center;
+      width: 150px;
+            animation-name: fade;
+      animation-duration: 3s;
+    }
+    .navbar a:hover {
+      background-color: white;
+    }
+    .navbar li {
+      float: left;
+    }
+    .navbar li:hover {
+       animation: glow;
+       animation-duration: 3s;
+    }
+    @keyframes glow {
+      50% {box-shadow: 0px 0px 50px aqua;}
+    }
+
+            @keyframes fade { 
+      0% 
+      {opacity: 0;}
+    }
+
+    .white_earphones {
+                     height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  position: relative;
+  top: 30px;
+  margin-left: 38em;
+  border-radius: 20px;
+           animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Item-Name {
+      position: relative;
+      text-align: center;
+      top: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Description {
+        position: relative;
+      background-color: lightsteelblue;
+      display: inline;
+      padding: 0%;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 30px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Buy-Now {
+              position: relative;
+      background-color: greenyellow;
+      display: inline;
+      padding: 0%;
+      top: 50px;
+      left: 630px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 60px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+
+    .Add-Cart {
+                    position: relative;
+      background-color: orange;
+      display: inline;
+      padding: 0%;
+      top: 150px;
+      left: 375px;
+      border-radius: 15px;
+      max-width: fit-content;
+      font-size: 50px;
+                 animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    .Paragraph {
+                       animation-name: fade;
+      animation-duration: 3s;
+    }
+
+    @media (max-width:1024px) {
+      .white_earphones {
+          margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Buy-Now {
+                  margin: auto;
+  width: 235px;
+  left: 117px;
+      }
+
+      .Add-Cart {
+                  margin: auto;
+  width: 235px;
+  left: -117px;
+  text-align: center;
+  
+      }
+     }
